@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Comic Combat</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <section class="title-section">
+        <h1>Comic Combat!</h1>
+        <p>Not all heroes come with capes. And not all villains are humans. Pick the right hero to defeat the villain!</p>
+    </section>
+    <section class="top-section">
+        <div class="villain-box-left">
+
+            <img src="" alt="Villain-Image" id="villain-image">
+        </div>
+        <div class="villain-box-center">
+            <div class="panel-container-top">
+                <p id="intro-villain-text">It's the villain...</p> 
+            </div>
+            <div class="panel-container">
+                <p id="villain-name"></p>
+            </div>
+            <div class="panel-container">
+                <p id="villain-description">Insert villain descriptor here.</p>
+            </div>
+
+
+        </div>
+        <div class="user-input-hero-box">
+            <div class="hero-drag-box-comic-font">
+                <p class="hero-introduction">But here comes...</p>
+            </div>
+            <div class="hero-drag-box-bottom">
+                <p id="hero-drag-description">Click the right hero to defeat the villain!</p>
+                <div id="hero-image-container">
+                    <img id="hero-answer" src=""></img>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="middle-section">
+        <div class="hero-description-box-left">
+            <img src="white.png" alt="Hero-Going-Fast" id="running-fast-image">
+        </div>
+        <div class="combat-box-center">
+            <img src="white.png" alt="Hero-and-Villain-Fighting" id="combat-image">
+        </div>
+        <div class="victory-or-defeat-box-right">
+            <div class = "victory-or-defeat-top-box">
+                <p id="hero-name"></p>
+                <p id="hero-description"></p>
+            </div>
+            <div id = "victory-or-defeat-bottom-box">
+                <p id="victory-defeat-prompt"></p>
+                <p class="reset-button">Click for a new villain!</p> 
+            </div>
+
+        </div>
+    </section>
+
+    <section class="select-hero">
+        <ul>
+            <li class="hero-img" id="hero-one">
+                <img class="hero-box" src="" alt="Hero-one"/>
+            </li>
+            <li class="hero-img" id="hero-two"><img class="hero-box" src="" alt="Hero1-Image"></img></li>
+            <li class="hero-img" id="hero-three"><img class="hero-box" src="" alt="Hero2-Image"></img></li>
+            <li class="hero-img" id="hero-four"><img class="hero-box" src="" alt="Hero3-Image"></img></li>
+            <li class="hero-img" ><img id="hero-five" class="hero-box" src="" alt="Hero4-Image"></img></li>
+        </ul>
+    </section>
+
+    <script src='script.js'></script>
+</body>
+</html>

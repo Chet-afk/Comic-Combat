@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body {
+    padding:0;
+    margin:0;
+    height:100%;
+    font-size: 62.5%;
+    font-family: 'Bangers' ,'Arial'
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.hero-introduction{
+    font-size: 2.3rem;
+    color: white;
+}
+
+#villain-name{
+    font-size: 4.3rem;
+}
+
+#intro-villain-text{
+    font-size: 2.4rem;
+}
+
+
+.hero-drag-box-comic-font{
+    background-color: black;
+}
+
+.middle-section, .top-section{
+    width: 100%;
+    height: 40%;
+}
+
+.title-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.top-section {
+    margin-top: .5rem;
+}
+
+.villain-box-left, .villain-box-center, .user-input-hero-box{
+    width: calc(30% - 8px);
+    height:100%;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+
+}
+
+.villain-box-left{
+    background-color: rgba(0, 0, 0, 0.836);
+}
+
+.villain-box-center, .hero-description-box-left{
+    flex-direction: column;
+
+}
+
+
+
+.villain-box-left{
+    border: 2px solid black;
+}
+
+.user-input-hero-box{
+    width: calc(40% - 8px);
+    flex-direction: column;
+}
+
+.hero-drag-box-comic-font, .hero-drag-box-bottom{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-drag-box-comic-font{
+    flex: 0 0 20%;
+    border: 2px solid black;
+    margin-bottom: 4px;
+}
+
+.hero-drag-box-bottom{
+    flex: 0 0 calc(80% - 8px);
+    border: 2px solid black;
+    margin-top: 4px;
+    overflow: hidden;
+}
+
+.panel-container, .panel-container-top{
+    flex: 0 0 calc(33.33% - 4px);
+    border: 2px solid black;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.849);
+}
+
+.panel-container{
+    margin-top: 4px;
+}
+
+.panel-container p, .panel-container-top p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.hero-description-box-left, .combat-box-center, .victory-or-defeat-box-right{
+    width: calc(45% - 8px);
+    height:100%;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 4px;
+}
+
+.hero-description-box-left, .combat-box-center{
+    border: 2px solid black;
+}
+
+
+
+
+.combat-box-center{
+    width: calc(35% - 8px);
+}
+
+.victory-or-defeat-box-right{
+    width: calc(20% - 8px);
+    flex-direction: column;
+}
+
+.victory-or-defeat-top-box{
+    height: calc(50% - 4px);
+    width: 100%;
+    border: 2px solid black;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.945);
+    margin-bottom: 4px;
+}
+
+#victory-or-defeat-bottom-box{
+    height: 50%;
+    width: 100%;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.945);
+}
+
+.reset-button{
+    font-size: 2.5rem;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    list-style: none;
+
+    width: 10%;
+}
+
+#hero-name{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+
+.hero-img{
+    max-width: 300px;
+    max-height: 300px;
+    border: 1px solid black;    
+}
+
+
+img{
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: cover;
+
+}
+
+h1{
+    font-size: 5rem;
+    margin-bottom: 10px;
+}
+
+.title-section p{
+    font-size: 2.5rem;
+}
+
+#victory-defeat-prompt{
+    font-size: 2rem;
+}
